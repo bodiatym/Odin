@@ -9,19 +9,11 @@ def caesar_cipher(string, shift_factor)
   new_string = string_arr.map do |char|
     if alphabet_lower.include?(char)
       index = alphabet_lower.index(char)
-      if index + shift_factor >= letter_count
-        new_index = (index+shift_factor) % letter_count
-      else
-        new_index = index + shift_factor
-      end
+      new_index = (index + shift_factor) % letter_count
       char = alphabet_lower[new_index]
     elsif alphabet_upper.include?(char)
-    index = alphabet_upper.index(char)
-      if index + shift_factor >= letter_count
-        new_index = (index+shift_factor) % letter_count
-      else
-        new_index = index + shift_factor
-      end
+      index = alphabet_upper.index(char)
+      new_index = (index + shift_factor) % letter_count
       char = alphabet_upper[new_index]
     else
       char
