@@ -3,7 +3,7 @@ def stock_picker(prices)
   min_i = 0
 
   profit = 0
-  days = [0, 0]
+  days = []
 
   prices.each_with_index do |p, i|
     if p < min_p
