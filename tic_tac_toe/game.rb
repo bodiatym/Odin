@@ -1,5 +1,5 @@
 class Game
-  attr_reader :first_player, :second_player, :board
+  attr_reader :board
   def initialize
     @noughts = "0"
     @crosses = "X"

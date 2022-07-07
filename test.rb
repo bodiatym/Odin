@@ -1,2 +1,6 @@
-a = ('a'..'z').to_a
-b = ('A'..'Z').to_a
+a=2
+if a == 2
+  p "LALALALLA"
+elsif a<3
+  p "FFFFFFFFFF"
+end
