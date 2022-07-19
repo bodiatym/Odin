@@ -1,25 +1,5 @@
 
 
-def lol(a)
-  a.each do |num|
-    return "test" if num > 4
-    p num
-  end
-  "LOOOOOOOOOOOOOOOOOOOOL"
-end
-
-def my_method(&number)
-  number.call
-end
-
-case { a: 'apple', b: 'banana' }
-in {ab: a, b: b}
-  puts "lalalal"
-in { a: a, b: b }
-  puts a
-  puts b
-end
-
 login = { username: 'hornby', password: 'iliketrains' }
 
 login => { username: username }
