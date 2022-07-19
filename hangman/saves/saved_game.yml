@@ -1,0 +1,15 @@
+---
+- !ruby/object:Game
+  word: 'modify
+
+    '
+  arr:
+  - _
+  - _
+  - _
+  - _
+  - _
+  - _
+  incorrect_letters:
+  - a
+  mistakes: 1
